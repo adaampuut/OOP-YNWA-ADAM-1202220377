@@ -33,7 +33,7 @@ public class Main {
         String[] courses = scanner.nextLine().split(",");
 
         for (String[] matkul : Matkul) {
-            System.out.println("\nCourse ID: "+ matkul[0]+", ");
+            System.out.println("\nCourse ID: "+ matkul[0]+", ");    
             System.out.println("Course Name: "+matkul[1]+", ");
             System.out.println("- Student: "+matkul[2]+", ");
             System.out.println("- Student: "+matkul[3]+", ");   
